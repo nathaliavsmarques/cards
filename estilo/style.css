@@ -72,6 +72,7 @@ h2 {
     margin-right: 10px;
     display: inline-block;
     
+    
 } 
 
 .cards > p {
@@ -80,6 +81,8 @@ h2 {
     text-align: center;
     padding-bottom: 10px;
     text-transform: uppercase;
+    min-width: 400px;
+    max-width: 900px;
 
 }
 .cards > a {
