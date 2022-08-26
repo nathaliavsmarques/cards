@@ -32,7 +32,7 @@ header{
 header > h1 {
     padding: 50px;
     font-size: 50px;
-    color: #ff0000;
+    color: #ffdf00;
     text-transform: uppercase;
     
     
@@ -41,7 +41,7 @@ main {
     text-align: center;
     background-color: whitesmoke;
     margin: auto;
-    min-width: 414px;
+    min-width: 400px;
     max-width: 900px;
    
 }
