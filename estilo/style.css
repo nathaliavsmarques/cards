@@ -1,0 +1,148 @@
+@charset "UTF-8"; 
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;1,100;1,300;1,400&display=swap'); 
+
+:root {
+    --verde: #009c3b; 
+    --amarelo: #ffdf00;
+    --azul: #002776; 
+}
+
+*    {
+    margin: 0px;
+    padding: 0px; 
+    
+}
+
+body {
+    font-family: 'Roboto'; 
+    background-color:#13dd60f8;
+   
+    
+}
+
+header{
+    text-align: center;
+    background: linear-gradient( #009c3b, #01792f, #013515);
+          
+    
+}
+
+header > h1 {
+    padding: 50px;
+    font-size: 60px;
+    color: #ffdf00;
+    text-transform: uppercase;
+    
+    
+} 
+main {
+    text-align: center;
+    background-color: whitesmoke;
+    margin: auto;
+    min-width: 300px;
+    max-width: 1000px;
+}
+
+section > p { 
+    color: black;
+    padding: 40px ;
+    font-size: 20px;
+    text-align: justify;
+    text-indent: 50px;
+    line-height: 30px;
+
+}
+h2 {
+    padding-top: 30px;
+    text-align: center;
+    font-size: 20px;
+}
+
+.cards {
+    background-color:#002776;
+    border: 1px solid black;
+    width: 400px;
+    height: 450px;
+    padding-top: 15px;
+    border-radius: 30px;
+    margin-top: 30px;
+    margin-right: 10px;
+    display: inline-block;
+    
+} 
+
+.cards > p {
+    color: #ffdf00;
+    font-weight: 500;
+    text-align: center;
+    padding-bottom: 10px;
+    text-transform: uppercase;
+
+}
+.cards > a {
+    color: #002776;
+    background-color: white;
+    text-decoration: none;
+    font-weight: bold;
+    display: inline-block;
+    padding: 10px;
+    margin-top: 0px;
+    width: 90px;
+    border: 1px solid black;
+    border-radius: 50px;
+    position: relative;
+    top: 3%;
+    left: 1%;
+   
+}
+.cards > a:hover {
+   background-color:#ffdf00;
+
+}
+
+#ariranha, #arara, #boto, #capivara, #mico, #onca, #sucuri {
+    display: block;
+    margin: auto; 
+    width: 90%;
+    height: 80%;   
+    border-radius: 5px;
+ 
+} 
+   
+.anotacao {
+    background-color: #4d87fc79;
+    text-align: left ;
+    line-height: 40px;
+    padding: 50px;
+    margin: 20px;
+    width:auto;
+    border-radius: 30px;  
+
+}
+
+.anotacao > h1 {
+    text-align: left;
+    text-transform: uppercase;
+    font-weight: normal;
+    
+}
+
+
+footer {
+    background-color:#066e2e ;
+    padding: 10px;
+    color: white; 
+    
+}
+
+footer p > a {
+    color: white;
+    font-weight: 500;
+    text-decoration: none;
+}
+
+footer p > a:hover {
+    font-weight: 550;
+    color: #ffdf00;
+}
