@@ -53,8 +53,18 @@ section > p {
     text-align: justify;
     text-indent: 50px;
     line-height: 30px;
-
 }
+
+section > p > a {
+    text-decoration: none;
+    color: black;
+    font-weight: 500;
+}
+
+section > p > a:hover{
+    color: #ffdf00;
+}
+
 h2 {
     padding-top: 30px;
     text-align: center;
